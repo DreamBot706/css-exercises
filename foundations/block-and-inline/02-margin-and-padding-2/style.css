@@ -10,18 +10,32 @@ body {
 }
 
 .title {
+  padding: 8px;
+  margin: 8px;
+  border-top: 16px solid white;
+  font-size: 16px;
   background: #e3f4ff;
 }
 
 .content {
+  padding: 16px 8px;
+  margin: 8px;
   background: #e3f4ff;
 }
 
 .button-container {
+  padding: 8px;
+  border: 8px solid white;
+  border-top: 0;
+  text-align: center;
   background: #e3f4ff;
 }
 
 button {
+  padding: 8px 24px;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
   background: white;
   border: 1px solid #eee;
 }
